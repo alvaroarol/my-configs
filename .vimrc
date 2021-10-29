@@ -1,0 +1,10 @@
+set number
+set showmatch
+set visualbell
+set hlsearch
+set smartcase
+set ignorecase
+set incsearch
+set ruler
+set backspace=indent,eol,start
+syntax on
