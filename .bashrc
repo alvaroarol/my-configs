@@ -3,6 +3,7 @@ GREEN="\[\e[32m\]"
 YELLOW="\[\e[33m\]"
 BLUE="\[\e[34m\]"
 WHITE="\[\e[0m\]"
+source ~/git-prompt.sh
 export PS1="${WHITE}[\$(date +%H:%M)] ${GREEN}\u@\h:${YELLOW}\w${BLUE}"'$(__git_ps1)'" ${WHITE}\$ "
 
 #Aliases
@@ -23,3 +24,7 @@ HISTCONTROL=ignoreboth
 HISTSIZE=1000
 HISTFILESIZE=2000
 shopt -s histappend
+shopt -s cmdhist
+
+#Better history search with arrows (needs .inputrc file)
+export INPUTRC=~/.inputrc
