@@ -3,7 +3,7 @@ GREEN="\[\e[32m\]"
 YELLOW="\[\e[33m\]"
 BLUE="\[\e[34m\]"
 WHITE="\[\e[0m\]"
-export PS1="${WHITE}[\$(date +%H:%M)] ${GREEN}\u@\h:${YELLOW}\w${WHITE}${BLUE}"'$(__git_ps1)'" ${WHITE}\$ "
+export PS1="${WHITE}[\$(date +%H:%M)] ${GREEN}\u@\h:${YELLOW}\w${BLUE}"'$(__git_ps1)'" ${WHITE}\$ "
 
 #Aliases
 alias ls="ls --color"
