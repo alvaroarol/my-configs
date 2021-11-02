@@ -7,4 +7,5 @@ set ignorecase
 set incsearch
 set ruler
 set backspace=indent,eol,start
+set background=light
 syntax on
